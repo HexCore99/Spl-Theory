@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int m, n;
+    int m;
 
     // Input the dimensions of the matrix
     scanf("%d", &m);
@@ -10,7 +10,6 @@ int main() {
     // Declare the matrix
     int matrix[m][m];
 
-    int element = 0;
 int sum = 0;
     // Input the matrix elements
     for (int i = 0; i < m; i++) {
