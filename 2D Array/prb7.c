@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-#define SIZE 3
+
 
 int main() {
-
+int SIZE = 3;
     int A[SIZE][SIZE], B[SIZE][SIZE], C[SIZE][SIZE];
 
     //  matrix A
