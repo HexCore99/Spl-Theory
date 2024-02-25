@@ -37,7 +37,7 @@ for (int i = 0; i < n; i++)
     }
      
    }
-  if (flag)
+  if (flag) // if arr2 element is not present in the arr1 array then put it to the subtrct array.
   {
    subtrct[subtrct_Indx++] = arr1[i]; 
 
