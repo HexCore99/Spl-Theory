@@ -1,7 +1,7 @@
 #include <stdio.h>
-#define MAX 50
-int main() {
 
+int main() {
+int MAX = 50;
  int A[MAX];
  int B[MAX];
 
