@@ -29,6 +29,11 @@ if (matrix[i][j] != matrix[j][i])
 }
 
 }
+ if (flag)
+{
+    break;
+}
+   
 }
 
 if (flag)
