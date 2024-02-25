@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-int MAX = 50;
+int MAX = 30;
  int A[MAX];
  int B[MAX];
 
@@ -26,15 +26,17 @@ for (int i = 0; i < max; i++)
     A[i]= B[i];
     B[i] = temp;
 }
-printf("Array B:\n");
-for (int i = 0; i < n; i++)
-{
-    printf("%d ", B[i]);
-}
-printf("\nArray A:\n");
+
+printf("Array A: ");
 for (int i = 0; i < m; i++)
 {
     printf("%d ", A[i]);
+}
+
+printf("\nArray B: ");
+for (int i = 0; i < n; i++)
+{
+    printf("%d ", B[i]);
 }
 
 
