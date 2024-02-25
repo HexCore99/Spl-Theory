@@ -39,8 +39,7 @@ for (int i = 0; i < n; i++)
    }
   if (flag)
   {
-   subtrct[subtrct_Indx++] = arr1[i]; // if arr2 element is not present int the arr1,
-                                  // then put that element into Union array
+   subtrct[subtrct_Indx++] = arr1[i]; 
 
   }
    
