@@ -19,8 +19,8 @@ for (int i = 0; i < m; i++)
 
 }
 
-int Union[m+n];
-int Union_Indx = 0;
+int subtrct[m+n];
+int subtrct_Indx = 0;
 
 
 
@@ -39,16 +39,16 @@ for (int i = 0; i < n; i++)
    }
   if (flag)
   {
-   Union[Union_Indx++] = arr1[i]; // if arr2 element is not present int the arr1,
+   subtrct[subtrct_Indx++] = arr1[i]; // if arr2 element is not present int the arr1,
                                   // then put that element into Union array
 
   }
    
 }
 
-for (int i = 0; i < Union_Indx; i++)
+for (int i = 0; i < subtrct_Indx; i++)
 {
-   printf("%d ", Union[i]);
+   printf("%d ", subtrct[i]);
 }
 
  
