@@ -24,21 +24,21 @@ int sum = 0;
     {
         for (int j = 0; j < m; j++)
         {
-           if (i<  m/2)
+           if (i<  m/2)  // Working with upper half
            {
             if ((i == 0 && j<= m/2) || (i == 0 && j == m-1))
             {
                 sum += matrix[i][j];
-            }else if ( j== m/2 || j == m-1)
+            }else if ( j== m/2 || j == m-1) 
             {
                 sum += matrix[i][j];
             }
             
             
-           }else if (i == m/2)
+           }else if (i == m/2) // working with mid row
            {
             sum += matrix[i][j];
-           }else
+           }else  // working with bottom half
            {
          if ((i == m-1 && j == 0) || (i == m-1 && j>m/2))
            {
@@ -46,15 +46,11 @@ int sum = 0;
            }else if (j == 0 || j == m/2)
            {
             sum += matrix[i][j];
+           }           
+           
+            
            }
-           
-           
-            
-           }
-           
-           
-            
-            
+                       
         }
         
     }
