@@ -16,13 +16,13 @@ int main() {
     }
 
     // Reverse the matrix within itself
-for (int  i = 0; i < m/2; i++)
+for (int  i = 0; i < m; i++)
 {
-    for (int j = 0; j < n; j++)
+    for (int j = 0; j < n/2; j++)
     {
        int temp = matrix[i][j];
-       matrix[i][j] = matrix[m-i-1][j];
-       matrix[m-i-1][j] = temp; 
+       matrix[i][j] = matrix[i][n-j-1];
+       matrix[i][n-j-1] = temp; 
     }
     
 }
