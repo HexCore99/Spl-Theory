@@ -35,7 +35,7 @@ int sum = 0;
             }
             
             
-           }else if (i == m/2 +1)
+           }else if (i == m/2)
            {
             sum += matrix[i][j];
            }else
