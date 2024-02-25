@@ -10,7 +10,7 @@ int main() {
     char alphabets[n];
 
     for (int i = 0; i < n; i++) {
-        scanf(" %c", &alphabets[i]); // Note the space before %c to consume the newline character
+        scanf(" %c", &alphabets[i]);
     }
 
     int nmbr_Of_vwls = 0;
@@ -25,5 +25,5 @@ int main() {
 
     printf(" %d\n", nmbr_Of_vwls);
 
-    return 0; // Exit successfully
+    return 0; 
 }
